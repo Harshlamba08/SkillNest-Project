@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Landing from "../Pages/Landing";
 import Login from "../Pages/Login";
-import Register from "../pages/Register";
+import Register from "../Pages/Register";
 import Courses from "../Pages/Courses";
 import CourseDetail from "../Pages/CourseDetail";
 import Dashboard from "../Pages/Dashboard";
