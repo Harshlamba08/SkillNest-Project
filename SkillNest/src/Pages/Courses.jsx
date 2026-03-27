@@ -9,7 +9,7 @@ const Courses = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/courses")
+    fetch("https://skillnest-backend-scy6.onrender.com/api/courses")
       .then(res => res.json())
       .then(data => setCourses(data));
   }, []);
@@ -18,7 +18,7 @@ const Courses = () => {
 
   const enroll = async (courseId) => {
 
-    await fetch("http://localhost:5000/api/users/enroll", {
+    await fetch("https://skillnest-backend-scy6.onrender.com/api/users/enroll", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

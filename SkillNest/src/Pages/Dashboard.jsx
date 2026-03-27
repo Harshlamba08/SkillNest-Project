@@ -5,7 +5,7 @@ const Dashboard = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/courses")
+    fetch("https://skillnest-backend-scy6.onrender.com/api/courses")
       .then(res => res.json())
       .then(data => setCourses(data));
   }, []);
