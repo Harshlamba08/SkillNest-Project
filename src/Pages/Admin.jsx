@@ -66,7 +66,7 @@ const Admin = () => {
   return (
     <div className="admin">
 
-      <h1>Admin Panel</h1>
+      <h1>Admin Panel</h1>``
 
 
       <div className="add">
